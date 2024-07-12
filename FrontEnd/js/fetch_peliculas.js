@@ -75,7 +75,7 @@ const fetchMoviesFlex = async () => {
   movies.forEach((movie) => {
     const peliculaItem = createElement("div", "peliculaItem");
     const img = createElement("img", "imgAclamada", {
-      src: ``,
+      src: `https://image.tmdb.org/t/p/w500/${movie.poster_path}`,
       alt: movie.title,
       loading: "lazy",
     });
