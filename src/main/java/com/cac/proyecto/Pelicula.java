@@ -12,7 +12,7 @@ public class Pelicula {
     // Constructor vacío necesario para deserialización de JSON
     public Pelicula() {}
 
-    // Constructor con parámetros para inicializar todos los atributos 
+    // Constructor con parámetros para inicializar todos los atributos
     public Pelicula(int idPelicula,String titulo, String genero, String duracion, String imagen) {
         this.idPelicula = idPelicula;
         this.titulo = titulo;
