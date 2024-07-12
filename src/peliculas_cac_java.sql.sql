@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `peliculas`
 --
 
-CREATE TABLE `peliculas` (
+CREATE TABLE `peliculas` IF NOT EXISTS(
   `id_pelicula` int(11) NOT NULL,
   `titulo` varchar(255) NOT NULL,
   `duracion` varchar(6) NOT NULL,
