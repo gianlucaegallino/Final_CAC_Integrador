@@ -13,7 +13,7 @@ public class Conexion {
             // Paso 1: Cargar dinámicamente el driver de MySQL
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            // Paso 2: Establecer la conexión con la base de datos 'peliculas_cac_java' en localhost 3306
+            // Paso 2: Establecer la conexión con la base de datos 'peliculas_cac_java' en localhost
             this.connection = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/peliculas_cac_java",  // URL de conexión JDBC para MySQL
                 "root",  // Nombre de usuario de la base de datos (cambia según tu configuración)

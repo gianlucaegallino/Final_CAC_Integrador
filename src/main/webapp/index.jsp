@@ -6,6 +6,6 @@
     <title>Peliculas</title>
 </head>
 <body>
-    <h1>Esto es una prueba</h1>
+    <h1>Esto pertenece a la api</h1>
 </body>
 </html>
